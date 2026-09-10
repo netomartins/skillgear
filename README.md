@@ -1,7 +1,7 @@
 # SkillGear ⚙️
 
 <p align="center">
-  <img src="assets/banner.png" alt="SkillGear Banner" width="100%" style="border-radius: 12px;" />
+  <img src="https://raw.githubusercontent.com/netomartins/skillgear/main/assets/banner.png" alt="SkillGear Banner" width="100%" style="border-radius: 12px;" />
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@
 ## 📸 CLI in Action
 
 <p align="center">
-  <img src="assets/demo.png" alt="SkillGear CLI Demo" width="85%" style="border-radius: 8px; box-shadow: 0 8px 30px rgba(0,0,0,0.5);" />
+  <img src="https://raw.githubusercontent.com/netomartins/skillgear/main/assets/demo.png" alt="SkillGear CLI Demo" width="85%" style="border-radius: 8px; box-shadow: 0 8px 30px rgba(0,0,0,0.5);" />
 </p>
 
 ---
