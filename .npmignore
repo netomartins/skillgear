@@ -1,0 +1,16 @@
+﻿# Source code (only dist/ is published)
+src/
+scripts/
+tests/
+
+# Config files
+tsconfig.json
+.gitignore
+.github/
+
+# Dev files
+*.test.ts
+*.spec.ts
+coverage/
+.vscode/
+.idea/

@@ -1,0 +1,61 @@
+{
+  "name": "skillgear",
+  "version": "0.1.0",
+  "description": "The intelligent, offline-first skill engine for AI coding agents. Search, scan, peek and install from 1,700+ curated skills.",
+  "main": "dist/index.js",
+  "bin": {
+    "skillgear": "dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist/",
+    "data/catalog.json",
+    "meta-skill/",
+    "LICENSE",
+    "README.md",
+    "ATTRIBUTION.md"
+  ],
+  "keywords": [
+    "ai",
+    "agent",
+    "skills",
+    "cursor",
+    "claude",
+    "antigravity",
+    "copilot",
+    "coding-agent",
+    "cli",
+    "skill-manager",
+    "agent-skills",
+    "mcp",
+    "devtools"
+  ],
+  "author": "Neto Martins <netomartins2@hotmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netomartins/skillgear.git"
+  },
+  "bugs": {
+    "url": "https://github.com/netomartins/skillgear/issues"
+  },
+  "homepage": "https://github.com/netomartins/skillgear#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0",
+    "ora": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.0"
+  }
+}
